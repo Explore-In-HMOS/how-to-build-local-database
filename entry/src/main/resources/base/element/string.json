@@ -1,0 +1,30 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    { "name": "app_name", "value": "FitTrack Wearable" },
+    { "name": "page_title", "value": "Workout History" },
+    { "name": "add_workout", "value": "Add" },
+    { "name": "workout_history", "value": "Workout History" },
+    { "name": "no_data", "value": "No workouts yet" },
+    { "name": "add_first_workout", "value": "+ Add First Workout" },
+    { "name": "data_added", "value": "Workout added" },
+    { "name": "data_cleared", "value": "All data cleared" },
+    { "name": "refreshing", "value": "Updating..." },
+    { "name": "error_add", "value": "Failed to add" },
+    { "name": "error_clear", "value": "Failed to clear" },
+    { "name": "loading_data", "value": "Loading workouts..." },
+    { "name": "data_ready", "value": "Ready" },
+    { "name": "error_db", "value": "Database error" }
+  ]
+}
