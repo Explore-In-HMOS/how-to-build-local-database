@@ -79,6 +79,21 @@ export class FitnessRdbHelper {
    * ```
    */
   async initRdb(context: Context): Promise<relationalStore.RdbStore> {
+    /**
+     * - 'securityLevel' can be set S3 for sensitive data, and S4 for critical data
+     * - 'encrypt' is false by default, can be set to 'true' to make the database encrypted.
+     * @example
+     * ```ts
+     * name: DB_NAME,
+     * securityLevel: relationalStore.SecurityLevel.S3,
+     * encrypt: true
+     * ```
+     * @description IMPORTANT Notes:
+     * - Once a database is created, its encryption status and security level cannot be changed.
+     * If the configuration changes, the existing database must be deleted or migrated.
+     * - The encryption key is managed by the system automatically.
+     * The application does not need to supply or rotate keys for the RDB store itself.
+     */
     const config: relationalStore.StoreConfig = {
       name: DB_NAME,
       securityLevel: relationalStore.SecurityLevel.S1

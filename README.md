@@ -16,6 +16,7 @@
 - **View Workout History**: Display all past workouts in a scrollable list optimized for circular watch screens
 - **Generate Mock Data**: Automatically create random workout data for testing and demonstration purposes
 - **Persist Data Locally**: Store all fitness data locally using HarmonyOS RDB Store (ArkData)
+- **Set Data Security**: Optionally, set the security level and encryption for the local RDB Store (ArkData)
 - **Clear Data**: Remove all workout records with a single tap when needed
 - **Quick Add Workout**: Add new workout entries instantly using the "Add" button
 - **View Workout Details**: Tap on any workout card to see detailed information via toast notification
@@ -76,7 +77,6 @@ entry/
 - **Huawei Watch GT Series** - With circular display support
 - **DevEco Studio Simulator** - Wearable round screen simulator
 
-# License (MIT)
+# License
 
-**How To Build Local Database** is distributed under the terms of the MIT License.
-See the [LICENSE](./LICENSE) for more information.
+**How To Build Local Database** is distributed under the terms of the MIT License. See the [LICENSE](LICENSE) for more information.
