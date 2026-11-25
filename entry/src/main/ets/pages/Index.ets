@@ -1,7 +1,7 @@
 /**
  * Fitness Tracking Wearable Application
  *
- * @description A HarmonyOS Next wearable application that demonstrates RDB (Relational Database) operations
+ * @description A HarmonyOS wearable application that demonstrates RDB (Relational Database) operations
  * including insert, query, delete, and transaction management. The app generates mock workout data
  * and displays it in an ArcList component optimized for circular screen wearables.
  *

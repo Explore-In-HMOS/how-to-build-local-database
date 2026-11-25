@@ -2,7 +2,7 @@
 
 # How To Build Local Database
 
-`How To Build Local Database` is a HarmonyOS Next fitness tracking application designed for smart wearables (Huawei Watch 5). It demonstrates local relational database management using RDB Store (ArkData) with features including workout tracking, heart rate monitoring, and GPS location data persistence. The app generates mock fitness data to simulate workout sessions without requiring actual sensors.
+`How To Build Local Database` is a HarmonyOS fitness tracking application designed for smart wearables (Huawei Watch 5). It demonstrates local relational database management using RDB Store (ArkData) with features including workout tracking, heart rate monitoring, and GPS location data persistence. The app generates mock fitness data to simulate workout sessions without requiring actual sensors.
 
 # Preview
 
@@ -29,7 +29,7 @@
 | Category | Technologies |
 |----------|--------------|
 | **Language** | ArkTS (TypeScript-based) |
-| **Framework** | HarmonyOS Next |
+| **Framework** | HarmonyOS |
 | **UI Components** | ArkUI (ArcList, Column, Row, Button, Text) |
 | **Database** | ArkData (@kit.ArkData) - Relational Database (RDB) Store |
 | **Data Structures** | ValuesBucket, RdbPredicates, ResultSet |
